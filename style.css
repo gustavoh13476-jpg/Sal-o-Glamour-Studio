@@ -8,11 +8,11 @@
   --text-color: black;
   --bg-gradient: linear-gradient(
     135deg, 
-    #FFECB3 0%,   /* Ponto de luz (mais claro) */
-    #ffd9005b 25%,  /* Dourado puro */
-    #DAA520 50%,  /* Sombra (mais escuro) */
-    #ffd900bb 75%,  /* Dourado puro */
-    #574b27 100%  /* Ponto de luz (mais claro) */
+    #FFECB3 0%,   
+    #ffd9005b 25%, 
+    #DAA520 50%,  
+    #ffd900bb 75%, 
+    #574b27 100%  
 );
   --stroke-color: rgb(73, 72, 52);
   --surface-color: rgba(120, 89, 23, 0.16);
@@ -59,8 +59,10 @@ body * {
   font-weight: 500;
   line-height: 50px;
   margin-top: 1px;
+  
 }
 #profile a {
+
   text-decoration: none;
 }
 
